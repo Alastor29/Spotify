@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.header_section {
+  background-color: black;
+  padding: 1.3rem 0;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo {
+  width: 120px;
+  margin-left: 5rem;
+}
+
+.header_items_container {
+  display: flex;
+  margin-right: 5rem;
+  gap: 3rem;
+}
+.header_items_menus {
+  display: flex;
+  gap: 2rem;
+}
+
+.header_item {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.header_item_second {
+  display: flex;
+  gap: 2rem;
+}
+
+.hero__left {
+  padding: 3rem 0 3rem 17rem;
+}
+
+.hero_title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
