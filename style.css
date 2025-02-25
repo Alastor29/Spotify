@@ -3,6 +3,10 @@ body {
   color: white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 }
@@ -10,25 +14,27 @@ a {
 .section {
   margin-bottom: 5rem;
 }
-.header_section {
+.header-section {
   background-color: black;
   padding: 1.3rem 0;
 }
 
-.header_container {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header_logo {
-  display: inline-block;
+.header_logo_container {
   width: 120px;
-  margin-left: 25rem;
+  margin-left: 5rem;
+}
+.header_logo {
+  filter: invert(100%);
 }
 
 .header_items_container {
   display: flex;
-  margin-right: 25rem;
+  margin-right: 6rem;
   gap: 3rem;
 }
 .header_items_menus {
@@ -56,28 +62,21 @@ a {
 
 /*hero*/
 
-.hero_section_container {
-  margin: 0 auto; /* centrado horizontal */
-}
-
-.row {
-  display: flex; /* Activa flexbox */
-  align-items: flex-start; /* Alinea la parte superior de ambos bloques */
-  justify-content: flex-start;
-}
-.col-6 {
-  width: 50%; /* cada columna ocupa la mitad del contenedor */
-  box-sizing: border-box;
+.hero_section {
+  background-image: linear-gradient(
+    to bottom,
+    pink,
+    black,
+    black,
+    black,
+    black
+  );
 }
 
 .hero_left {
-  width: 35%;
-  text-align: left;
-  margin-left: 25rem;
-  margin-right: 10rem;
-  /* Ajusta si deseas algo de padding */
-  padding-top: 2rem;
+  padding: 3rem 0 3rem 17rem;
 }
+
 .hero_title {
   font-size: 3rem;
   font-weight: 700;
@@ -101,7 +100,7 @@ a {
 }
 
 .hero_button1 {
-  background-color: pink;
+  background-color: #ef77a1;
   padding: 0.7rem 2rem;
   font-weight: bold;
   border: none;
@@ -120,11 +119,10 @@ a {
   padding-right: 11rem;
 }
 
-.hero_right img {
-  width: 100%; /* la imagen ocupa todo su 50% de ancho */
-  height: auto;
-  display: block; /* elimina espacios extra de imágenes inline */
-  margin-left: 5rem;
+.hero__right {
+  background-image: url(../images/desktop-album-evergreen-1x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .rounded-pill {
@@ -132,11 +130,8 @@ a {
 }
 
 /*seccion caracteristicas*/
-.feactures_section_container {
-  display: block;
-}
 
-.plans_table_container {
+.plans__table__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,7 +140,6 @@ a {
 }
 
 .table_title {
-  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -157,12 +151,18 @@ a {
   width: 450px;
 }
 
-.mt-5 {
-  margin-top: 3rem;
+.table_row {
+  background-color: black !important;
+  border-bottom: 1px solid white;
 }
 
-.table_row {
+.tablehead {
   border-bottom: 1px solid white;
+  padding: 1rem 0;
+}
+
+table th {
+  text-align: start;
 }
 
 tbody th {
@@ -174,4 +174,40 @@ tbody th {
 .table_items {
   padding: 1rem;
   text-align: left;
+}
+
+.plans_payment_container {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.plans_payment_title {
+  font-weight: 700;
+}
+
+.plans_payment_subtitle {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo-payments_container {
+  display: flex;
+}
+
+.icon_item {
+  background-color: white;
+  max-width: 3.5rem;
+  padding: 0rem 0.5rem;
+  margin: 0.3rem;
+  border-radius: 5px;
+}
+
+.icon {
+  max-width: 100%;
+  height: auto;
 }
