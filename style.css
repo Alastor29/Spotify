@@ -211,3 +211,224 @@ tbody th {
   max-width: 100%;
   height: auto;
 }
+
+.plans_premium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.premium_title {
+  align-self: center;
+  font-size: 2rem;
+}
+
+.check_items {
+  align-items: center;
+}
+
+.check_items_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.check_item_icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  align-self: center;
+}
+
+.tables_plan_cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.plan_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  position: relative;
+  padding: 1rem;
+  background-color: #2a2a2a;
+  width: 360px;
+  border-radius: 10px;
+}
+
+.plans_card_label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #121212;
+  padding: 0.3rem 1rem;
+  border-radius: 10px 0 10px 0;
+  font-weight: bold;
+}
+
+.pinkupper {
+  background-color: #ffd2d7;
+}
+
+.plans_card_icons {
+  margin-top: 2.5rem;
+  font-weight: bold;
+}
+
+.plans_card_icon {
+  width: 23px;
+  margin-right: 0.5rem;
+}
+
+.plan_card_title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pinktxt {
+  color: #ffd2d7;
+}
+
+.plan_card_costs {
+  width: 100%;
+  border-bottom: 1px solid rgba(154, 154, 154, 0.509);
+  padding: 0.2rem 0 1rem 0;
+}
+
+.plan_card_costs1 {
+  font-weight: bold;
+}
+
+.plan_card_costs2 {
+  opacity: 0.7;
+}
+
+.plan_card_details {
+  padding: 1rem 0;
+}
+
+.plan_card_detail {
+  list-style-type: disc;
+  font-weight: 500;
+}
+
+.plan_card_button {
+  color: #121212;
+  padding: 0.7rem 4rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+
+.plan_card_footer {
+  font-size: 0.7rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.preguntas_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.preguntas_title {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.preguntas_acardionWrapper {
+  width: 90%;
+}
+
+.preguntas_acardionItem {
+  background-color: #1f1f1f;
+  color: white;
+  border: none;
+}
+
+.footer-section {
+  background-color: #000000;
+}
+
+.footer__container {
+  padding: 5rem 5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mainfooter {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.mainfooter__itemWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.plans__card__icon {
+  width: 23px;
+  margin-right: 0.5rem;
+}
+
+.mainfooter__firstitem {
+  color: gray;
+}
+
+.iconfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.subfooter {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subfooter__left {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.subfooter__item {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.subfooter__right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
